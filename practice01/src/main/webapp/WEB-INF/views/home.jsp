@@ -7,32 +7,47 @@
 <head>
 	<title>Home</title>
 	
-	<link rel="stylesheet" href="/node_modules/tui-grid/dist/tui-grid.css" >
-	<link rel="stylesheet" href="/node_modules/tui-grid/dist/tui-grid.min.css">
+<!-- 	<link rel="stylesheet" href="/node_modules/tui-grid/dist/tui-grid.css" >
+	<link rel="stylesheet" href="/node_modules/tui-grid/dist/tui-grid.min.css"> -->
 
 	<link rel="stylesheet" href="/resources/css/home.css">
 </head>
+<script type="text/javascript">
+
+</script>
 <body>
+<div id="container">
 	<div id="left_frame">
-		<h1>Hello, World!</h1>
-		<p id="test"></p>
+		<div id="panel__0" class="left__panel">
+			<h1>Home</h1>
+		</div>
+		<div id="panel__1" class="left__panel">
+			<h3>로그인</h3>
+		</div>
+		<div id="panel__2" class="left__panel">
+			<h3>게시판</h3>
+		</div>
+		<div id="panel__3" class="left__panel">
+			<h3>데이터 조회</h3>
+		</div>
+		<div id="panel__4" class="left__panel">
+			<h3>회원가입</h3>
+		</div>
 	</div>
 	
 	<div id="frame">
-        <div id="grid"></div>
-        <div>
-            <br>
-            <button id="btnClear">초기화</button>
-            <button id="btnSearch">조회</button>
-        </div>
+        <h1>
+        	Hello, World!
+        </h1>
     </div>
+</div>
 	
 	<!--  -->	
 	<script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
 
 	<!-- tui grid import -->
-	<script type="text/javascript" src="/node_modules/tui-grid/dist/tui-grid.js"></script>
-	<script type="text/javascript" src="/node_modules/tui-grid/dist/tui-grid.min.js"></script>  
+<!-- 	<script type="text/javascript" src="/node_modules/tui-grid/dist/tui-grid.js"></script>
+	<script type="text/javascript" src="/node_modules/tui-grid/dist/tui-grid.min.js"></script>   -->
 	
 	<!-- things -->
  	<script type="text/javascript" src="/resources/js/home.js"></script>

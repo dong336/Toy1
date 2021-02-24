@@ -4,13 +4,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@Controller
+@Controller("homeController")
 public class HomeController {
 	
 	@RequestMapping(value="/favicon.ico")
-	public void getFavicon(Model model) throws Exception {
+	public String getFavicon(Model model) throws Exception {
 		System.out.println("Hello, Favicon!");
-		
+		return "home";
 	}
 	
 	@RequestMapping(value="/")
@@ -21,5 +21,6 @@ public class HomeController {
 		
 		return "home";
 	}
-		
+	
+	
 }
