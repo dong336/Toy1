@@ -25,7 +25,7 @@
 			<h3>로그인</h3>
 		</div>
 		<div id="panel__2" class="left__panel">
-			<h3>게시판</h3>
+			<h3>게시판 목록</h3>
 		</div>
 		<div id="panel__3" class="left__panel">
 			<h3>데이터 조회</h3>
@@ -36,9 +36,7 @@
 	</div>
 	
 	<div id="frame">
-        <h1>
-        	Hello, World!
-        </h1>
+        <!-- mainHome.jsp -->
     </div>
 </div>
 	
@@ -51,5 +49,6 @@
 	
 	<!-- things -->
  	<script type="text/javascript" src="/resources/js/home.js"></script>
+ 	
 </body>
 </html>

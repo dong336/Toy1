@@ -14,13 +14,13 @@ body{
 	border : 2px solid gray;
 }
 #frame{
-	width:calc(100% - 210px); 
+	width:calc(100% - 220px); 
 	overflow:overflow-y; 
-	height:calc(100% - 50px); 
 	float:left;
 	padding:5px;
 	background-color:#f5f0f0;
 	border:1px solid #f0cccc;
+	margin:5px 5px;
 }
 #left_frame{
 	width:195px; 

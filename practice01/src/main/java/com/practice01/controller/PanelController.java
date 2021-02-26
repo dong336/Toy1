@@ -15,11 +15,11 @@ public class PanelController {
 	}
 	
 	// 로그인
-	@RequestMapping(value="/memberForm")
-	public String getForm(Model model) throws Exception {
+	@RequestMapping(value="/loginForm")
+	public String getLogin(Model model) throws Exception {
 		System.out.println("Hello, Form!");
 		
-		return "panel/memberForm";
+		return "panel/loginForm";
 	}
 	
 	// 데이터 조회

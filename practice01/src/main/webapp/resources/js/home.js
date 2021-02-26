@@ -1,5 +1,8 @@
 window.onload = function() {
-    var panel__0 = true;
+    
+	$("#frame").load("/mainHome");
+	
+	var panel__0 = true;
 	var panel__1 = true;
     var panel__2 = true;
     var panel__3 = true;
@@ -64,7 +67,7 @@ window.onload = function() {
         	console.log(panel__1);
         	
 			$("#frame").empty();
-        	$("#frame").load("/memberForm");
+        	$("#frame").load("/loginForm");
         	
 			def();
 			$("#panel__1").css({
